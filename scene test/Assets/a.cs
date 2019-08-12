@@ -8,6 +8,7 @@ public class a : MonoBehaviour
     void Start()
     {
         
+        GetComponent<Rigidbody>().AddForce(Vector3.forward*10f, ForceMode.Impulse);
     }
 
     // Update is called once per frame
